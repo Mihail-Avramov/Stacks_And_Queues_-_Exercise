@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T04. Fast Food", "T04. Fast
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T05. Fashion Boutique", "T05. Fashion Boutique\T05. Fashion Boutique.csproj", "{BF21213B-2F55-43C5-B260-43501BA74CE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T06. Songs Queue", "T06. Songs Queue\T06. Songs Queue.csproj", "{40508BCC-3A30-4C25-8207-37C3CDEC5827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T07. Truck Tour", "T07. Truck Tour\T07. Truck Tour.csproj", "{9EE083AF-7482-451F-9B08-4FE314E8608B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{BF21213B-2F55-43C5-B260-43501BA74CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF21213B-2F55-43C5-B260-43501BA74CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF21213B-2F55-43C5-B260-43501BA74CE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40508BCC-3A30-4C25-8207-37C3CDEC5827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40508BCC-3A30-4C25-8207-37C3CDEC5827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40508BCC-3A30-4C25-8207-37C3CDEC5827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40508BCC-3A30-4C25-8207-37C3CDEC5827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE083AF-7482-451F-9B08-4FE314E8608B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE083AF-7482-451F-9B08-4FE314E8608B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE083AF-7482-451F-9B08-4FE314E8608B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE083AF-7482-451F-9B08-4FE314E8608B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
