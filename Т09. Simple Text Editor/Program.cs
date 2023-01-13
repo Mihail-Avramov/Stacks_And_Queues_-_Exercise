@@ -35,6 +35,4 @@ for (int i = 0; i < operationsCount; i++)
             text = new StringBuilder(undoStack.Pop());
             break;
     }
-
-
 }
