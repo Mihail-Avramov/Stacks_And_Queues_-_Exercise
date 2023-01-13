@@ -4,18 +4,17 @@ using System.Linq;
 
 Queue<PetrolStation> petrolStations = new Queue<PetrolStation>();
 int n = int.Parse(Console.ReadLine());
-int tank = 0;
-
-bool isSucceed = true;
-
 
 InitialiseStations(petrolStations, n);
 
 for (int i = 0; i < n; i++)
 {
+    bool isSucceed = true;
+    int tank = 0;
+
     foreach (var petrolStation in petrolStations)
     {
-        if (petrolStation.PetrolAmount + tank <= petrolStation.Distance)
+        if (petrolStation.PetrolAmount + tank < petrolStation.Distance)
         {
             isSucceed = false;
             break;
@@ -30,13 +29,10 @@ for (int i = 0; i < n; i++)
     }
     else
     {
-        tank = 0;
         var moveStation = petrolStations.Dequeue();
         petrolStations.Enqueue(moveStation);
-        isSucceed = true;
     }
 }
-
 
 
 void InitialiseStations(Queue<PetrolStation> queue , int count)
@@ -56,12 +52,11 @@ void InitialiseStations(Queue<PetrolStation> queue , int count)
 
 class PetrolStation
 {
-    public PetrolStation(int amount, int distance)
+    internal PetrolStation(int amount, int distance)
     {
         PetrolAmount = amount;
         Distance = distance;
     }
-
 
     public int PetrolAmount;
     public int Distance;
