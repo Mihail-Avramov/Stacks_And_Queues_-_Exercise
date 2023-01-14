@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T07. Truck Tour", "T07. Tru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T08. Balanced Parenthesis", "T08. Balanced Parenthesis\T08. Balanced Parenthesis.csproj", "{FE88E2E0-7F11-482C-8234-5DFC9F184ED5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T09. Simple Text Editor", "T09. Simple Text Editor\T09. Simple Text Editor.csproj", "{FC4FD418-5936-4C56-8BC7-20AC17F68BEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T09. Simple Text Editor", "T09. Simple Text Editor\T09. Simple Text Editor.csproj", "{FC4FD418-5936-4C56-8BC7-20AC17F68BEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T10. Crossroads", "T10. Crossroads\T10. Crossroads.csproj", "{5013689C-93A9-4882-9D91-53C0D2954DC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "T10. Crossroads", "T10. Crossroads\T10. Crossroads.csproj", "{5013689C-93A9-4882-9D91-53C0D2954DC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "T11. Key Revolver", "T11. Key Revolver\T11. Key Revolver.csproj", "{62B3FEF2-2FB5-4E49-A618-C390A27EC746}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +71,10 @@ Global
 		{5013689C-93A9-4882-9D91-53C0D2954DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5013689C-93A9-4882-9D91-53C0D2954DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5013689C-93A9-4882-9D91-53C0D2954DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62B3FEF2-2FB5-4E49-A618-C390A27EC746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B3FEF2-2FB5-4E49-A618-C390A27EC746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B3FEF2-2FB5-4E49-A618-C390A27EC746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B3FEF2-2FB5-4E49-A618-C390A27EC746}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
