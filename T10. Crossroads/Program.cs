@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 int greenLightTime = int.Parse(Console.ReadLine());
 int safeWindowsTime = int.Parse(Console.ReadLine());
@@ -16,7 +15,7 @@ while ((input = Console.ReadLine()) != "END")
     {   
         int currentTimer = greenLightTime;
         string currentCar = string.Empty;
-        while (currentTimer > 0 && carsQueue.Any())
+        while (currentTimer > 0 && carsQueue.Count > 0)
         {
             currentCar = carsQueue.Dequeue();
             currentTimer -= currentCar.Length;
@@ -30,7 +29,6 @@ while ((input = Console.ReadLine()) != "END")
             Console.WriteLine($"{currentCar} was hit at {hittedChar}.");
             return;
         }
-        
     }
     else
     {
