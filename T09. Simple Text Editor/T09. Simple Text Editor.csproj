@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>Т09._Simple_Text_Editor</RootNamespace>
+    <RootNamespace>T09._Simple_Text_Editor</RootNamespace>
   </PropertyGroup>
 
 </Project>
